@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -25,6 +25,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Skeleton.Api\Skeleton.Api.csproj" />
+    <ProjectReference Include="..\..\src\Skeleton.Infrastructure\Skeleton.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Tests\" />
   </ItemGroup>
 
 </Project>
