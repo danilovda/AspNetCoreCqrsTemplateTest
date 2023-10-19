@@ -3,6 +3,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Skeleton.Contracts\Skeleton.Contracts.csproj" />
     <ProjectReference Include="..\Skeleton.Application\Skeleton.Application.csproj" />
+    <ProjectReference Include="..\Skeleton.Infrastructure\Skeleton.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EndpointHandlers\" />
+    <Folder Include="Endpoints\" />
   </ItemGroup>
 
   <PropertyGroup>
