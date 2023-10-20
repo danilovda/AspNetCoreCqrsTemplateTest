@@ -6,11 +6,6 @@
     <ProjectReference Include="..\Skeleton.Infrastructure\Skeleton.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EndpointHandlers\" />
-    <Folder Include="Endpoints\" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
