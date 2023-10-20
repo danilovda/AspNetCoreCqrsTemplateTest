@@ -28,8 +28,4 @@
     <ProjectReference Include="..\..\src\Skeleton.Infrastructure\Skeleton.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Tests\" />
-  </ItemGroup>
-
 </Project>
