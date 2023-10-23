@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\_apiTemplate_.Contracts\_apiTemplate_.Contracts.csproj" />
+    <ProjectReference Include="..\_apiTemplate_.Application\_apiTemplate_.Application.csproj" />
+    <ProjectReference Include="..\_apiTemplate_.Infrastructure\_apiTemplate_.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

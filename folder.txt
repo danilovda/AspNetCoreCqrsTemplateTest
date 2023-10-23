@@ -1,0 +1,38 @@
+_apiTemplate_.Api
+  Middleware
+    ExceptionHandlingMiddleware.cs
+  appsettings.json
+  DependencyInjection.cs
+  Program.cs
+_apiTemplate_.Application
+  Common
+    Behaviors
+      ValidationBehavior.cs
+    Exceptions
+      ValidationException.cs
+    Interfaces
+      Persistence
+      IGenericRepository.cs
+    Mapping
+      DependencyInjection.cs
+  DependencyInjection.cs
+_apiTemplate_.Domain
+  Common
+    Exceptions    
+      Errors
+        _apiTemplate_NotFoundException.cs
+      ApplicationException.cs
+      BadRequestException.cs
+      NotFoundException.cs
+    Interfaces
+      IAggregateRoot.cs
+_apiTemplate_.Infrastructure
+  Presistence
+    Repositories
+      GenericRepository.cs
+    DbInitializer.cs
+    SqlDbContext.cs
+  DependencyInjection.cs
+
+
+

@@ -1,15 +1,14 @@
 ﻿using _apiTemplate_.Api.EndpointHandlers;
-using _apiTemplate_.Domain.EmployeeAggregate;
+using _apiTemplate_.Domain._entityTemplate_Aggregate;
 
 namespace _apiTemplate_.Api.Endpoints;
 
-static class EmployeeEndpoints
+static class _entityTemplate_Endpoints
 {
-    public static void MapEmployeeEndpoints(this WebApplication app)
+    public static void Map_entityTemplate_Endpoints(this WebApplication app)
     {
-        app.MapGet("/", () => "Hello World!");
 
-        var employeeItems = app.MapGroup("/api/v1/_entityTemplate_s");
+        var _entityTemplate_Items = app.MapGroup("/api/v1/_entityTemplate_s");
         _entityTemplate_Items.MapGet("/", _entityTemplate_EndpointHandler.GetAll_entityTemplate_s);
         _entityTemplate_Items.MapGet("/{id}", _entityTemplate_EndpointHandler.Get_entityTemplate_ById)
             .Produces<_entityTemplate_>(StatusCodes.Status200OK)

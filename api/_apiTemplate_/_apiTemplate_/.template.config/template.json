@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Dmitry Danilov",
+  "classifications": ["Web", "WebAPI"],
+  "identity": "Danilov.Templates.AspNetCore.CleanArchitecture",
+  "name": "ASP.NET Core Web API with Clean Architecture",
+  "sourceName": "_apiTemplate_",
+  "preferNameDirectory": true,
+
+  "shortName": "mywebapi",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": ["**/.git/**", "**/.vs/**"]
+        }
+      ]
+    }
+  ]
+}
