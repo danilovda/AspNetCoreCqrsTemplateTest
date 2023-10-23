@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Dmitry Danilov",
+  "classifications": ["C#"],
+  "identity": "Danilov.Templates.CQRS",
+  "name": "CQRS",
+  "sourceName": "_entityTemplate_",
+
+  "shortName": "cqrs",
+  "tags": {
+    "type": "project"
+  },
+  "symbols": {
+    "api": {
+      "type": "parameter",
+      "description": "Api name",
+      "datatype": "text",
+      "replaces": "_apiTemplate_",
+      "fileRename": "_apiTemplate_",
+      "defaultValue": "_apiTemplate_"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": ["**/.git/**", "**/.vs/**"]
+        }
+      ]
+    }
+  ]
+}
