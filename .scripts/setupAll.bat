@@ -6,7 +6,7 @@ dotnet new sln -o %solutionName%
 mkdir %solutionName%\Services
 
 cd %solutionName%\Services
-dotnet new mywebapi -n %serviceName%
+dotnet new ca-sln -n %serviceName%
 
 cd ..
 
@@ -19,7 +19,7 @@ dotnet sln add Services\%serviceName%\src\%serviceName%.Domain\%serviceName%.Dom
 dotnet sln add Services\%serviceName%\tests\%serviceName%.FunctionalTests\%serviceName%.FunctionalTests.csproj
 
 cd .\Services\
-dotnet new cqrs -n %entityName% -ap %apiName%
-@REM dotnet new cqrs -n Department -ap %serviceName%
+dotnet new ca-entity -n %entityName% -ap %apiName%
+@REM dotnet new ca-entity -n Department -ap %serviceName%
 
 set /p name=name:

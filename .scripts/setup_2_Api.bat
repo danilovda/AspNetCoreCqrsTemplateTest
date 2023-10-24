@@ -1,6 +1,6 @@
 set /p serviceName=Api name:
 
-dotnet new mywebapi -n %serviceName%
+dotnet new ca-sln -n %serviceName%
 
 cd ..
 
