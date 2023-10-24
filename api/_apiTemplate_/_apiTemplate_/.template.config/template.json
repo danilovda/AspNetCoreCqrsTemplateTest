@@ -7,7 +7,7 @@
   "sourceName": "_apiTemplate_",
   "preferNameDirectory": true,
 
-  "shortName": "mywebapi",
+  "shortName": "ca-sln",
   "tags": {
     "language": "C#",
     "type": "project"

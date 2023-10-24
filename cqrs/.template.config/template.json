@@ -1,13 +1,13 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Dmitry Danilov",
-  "classifications": ["C#"],
   "identity": "Danilov.Templates.CQRS",
   "name": "CQRS",
   "sourceName": "_entityTemplate_",
 
-  "shortName": "cqrs",
+  "shortName": "ca-entity",
   "tags": {
+    "language": "C#",
     "type": "project"
   },
   "symbols": {
